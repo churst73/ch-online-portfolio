@@ -42,3 +42,15 @@ p {
   font-family: var(--body-font-family);
   color: var(--primary-color) !important;
 }
+
+.footer {
+  background: var(--tertiary-color);
+}
+
+.btn-outline-warning {
+  color: var(--primary-color);
+  border: 2px solid var(--primary-color) !important;
+  display: block;
+  margin: auto;
+  max-width: 150px;
+}
