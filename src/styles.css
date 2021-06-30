@@ -1,7 +1,24 @@
-h1 {
-  font-family: "Fraunces", serif;
-  color: blueviolet;
+:root {
+  --primary-color: #dfa53d;
+  --secondary-color: #f4e1bd;
+  --tertiary-color: #858b6b;
+  --heading-font-family: "Fraunces", serif;
+  --body-font-family: "Poppins", sans-serif;
 }
-h2 {
-  font-family: "Poppins", sans-serif;
+
+.navbar {
+  background: var(--secondary-color) !important;
+}
+
+.hero {
+  background: #f4e1bd;
+}
+
+.navbar-nav {
+  margin-top: 8px;
+}
+
+.nav-link {
+  font-family: var(--body-font-family);
+  color: var(--primary-color) !important;
 }
