@@ -44,7 +44,8 @@ p {
 }
 
 .footer {
-  background: var(--tertiary-color);
+  background: var(--secondary-color);
+  font-family: var(--body-font-family);
 }
 
 .btn-outline-warning {
@@ -53,4 +54,9 @@ p {
   display: block;
   margin: auto;
   max-width: 150px;
+}
+
+.footer-nav {
+  text-decoration: none;
+  color: var(--primary-color);
 }
