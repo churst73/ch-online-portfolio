@@ -16,6 +16,7 @@ h1 {
 
 p {
   font-family: var(--body-font-family);
+  font-size: 17px;
   color: var(--primary-color);
   margin: 0px 15px 30px 15px;
   text-align: center;
@@ -71,4 +72,11 @@ p {
 .fab,
 .fas {
   font-size: 35px;
+}
+
+.arrow {
+  font-family: "Caveat", cursive;
+  color: var(--primary-color);
+  font-size: 70px;
+  transform: rotate(45deg);
 }
