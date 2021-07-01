@@ -8,6 +8,7 @@
 
 h1 {
   font-family: var(--heading-font-family);
+  font-size: 45px;
   color: var(--primary-color);
   text-align: center;
   margin-top: 50px;
@@ -64,4 +65,10 @@ p {
 
 .footer-item {
   color: var(--primary-color);
+  font-size: 20px;
+}
+
+.fab,
+.fas {
+  font-size: 35px;
 }
