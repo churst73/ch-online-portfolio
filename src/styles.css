@@ -73,10 +73,3 @@ p {
 .fas {
   font-size: 35px;
 }
-
-.arrow {
-  font-family: "Caveat", cursive;
-  color: var(--primary-color);
-  font-size: 70px;
-  transform: rotate(45deg);
-}
