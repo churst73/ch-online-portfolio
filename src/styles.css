@@ -106,10 +106,6 @@ hr {
 }
 
 @media (max-width: 576px) {
-  .self {
-    display: none;
-  }
-
   h1 {
     font-size: 35px;
     margin-top: 0;
