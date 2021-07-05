@@ -36,10 +36,12 @@ p {
 }
 
 hr {
-  width: 100%;
+  width: 90%;
   display: block;
   margin: auto;
-  color: var(--primary-color);
+  height: 5px;
+  background-color: #dfa53d;
+  border-top: 3px solid #dfa53d;
 }
 
 .skills {
