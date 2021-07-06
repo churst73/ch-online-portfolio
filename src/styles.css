@@ -72,6 +72,10 @@ hr {
   color: var(--primary-color) !important;
 }
 
+.look {
+  margin-top: 40px;
+}
+
 .footer {
   background: var(--secondary-color);
   font-family: var(--body-font-family);
@@ -107,6 +111,13 @@ hr {
   text-align: center;
 }
 
+.my-story {
+  font-family: var(--heading-font-family);
+  font-size: 130px;
+  margin-top: 220px;
+  margin-bottom: 220px;
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 35px;
@@ -114,5 +125,13 @@ hr {
   }
   h2 {
     display: none;
+  }
+  .my-story {
+    font-size: 45px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+  }
+  .look {
+    margin-top: 15px;
   }
 }
