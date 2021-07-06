@@ -20,7 +20,7 @@ h1 {
 
 h2 {
   font-family: var(--heading-font-family);
-  color: var(--secondary-color);
+  color: var(--primary-color);
   text-align: center;
   font-size: 40px;
   font-weight: bold;
@@ -117,8 +117,19 @@ hr {
   margin-top: 220px;
   margin-bottom: 260px;
 }
+
 .goal {
-  background-color: #636c42;
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+
+.couple {
+  border-top-left-radius: 400px;
+  border-bottom-left-radius: 400px;
+}
+
+.about-text {
+  margin: 0 50px;
 }
 
 @media (max-width: 576px) {
