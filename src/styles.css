@@ -20,11 +20,11 @@ h1 {
 
 h2 {
   font-family: var(--heading-font-family);
-  color: var(--primary-color);
+  color: var(--secondary-color);
   text-align: center;
-  padding: 200px;
-  font-size: 52px;
+  font-size: 40px;
   font-weight: bold;
+  padding: 60px 30px;
 }
 
 p {
@@ -115,16 +115,16 @@ hr {
   font-family: var(--heading-font-family);
   font-size: 130px;
   margin-top: 220px;
-  margin-bottom: 220px;
+  margin-bottom: 260px;
+}
+.goal {
+  background-color: #636c42;
 }
 
 @media (max-width: 576px) {
   h1 {
     font-size: 35px;
     margin-top: 0;
-  }
-  h2 {
-    display: none;
   }
   .my-story {
     font-size: 45px;
