@@ -35,15 +35,6 @@ p {
   text-align: left;
 }
 
-hr {
-  width: 90%;
-  display: block;
-  margin: auto;
-  height: 5px;
-  background-color: #dfa53d;
-  border-top: 3px solid #dfa53d;
-}
-
 .skills {
   font-family: var(--body-font-family);
   color: #dfa53d;
@@ -132,15 +123,31 @@ hr {
   margin: 0 50px;
 }
 
+.image-row {
+  margin-bottom: 80px;
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 35px;
     margin-top: 0;
   }
+
+  h2 {
+    font-size: 25px;
+    padding: 20px 10px;
+  }
   .my-story {
     font-size: 45px;
     margin-top: 50px;
     margin-bottom: 80px;
+  }
+  .description {
+    font-size: 20px;
+  }
+  .couple {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
   }
   .look {
     margin-top: 15px;
