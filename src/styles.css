@@ -27,6 +27,14 @@ h2 {
   padding: 60px 30px;
 }
 
+h3 {
+  font-family: var(--heading-font-family);
+  color: var(--primary-color);
+  text-align: center;
+  font-size: 30px;
+  margin-top: 35px;
+}
+
 p {
   font-family: var(--body-font-family);
   font-size: 17px;
@@ -125,6 +133,11 @@ p {
 
 .image-row {
   margin-bottom: 80px;
+}
+
+.posters {
+  border: 5px solid #f4e1bd;
+  border-radius: 15px;
 }
 
 @media (max-width: 576px) {
