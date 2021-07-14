@@ -165,6 +165,46 @@ p {
   border-radius: 15px;
 }
 
+.hover-image {
+  position: relative;
+}
+
+.hover-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: var(--secondary-color);
+  font-family: var(--body-font-family);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+
+.hover-overlay--solid {
+  background: var(--primary-color);
+}
+
+.hover-overlay:hover {
+  opacity: 1;
+}
+
+.hover-description {
+  font-size: 25px;
+}
+
+.project-link {
+  color: var(--secondary-color);
+}
+.project-link:hover {
+  color: var(--secondary-color);
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 35px;
