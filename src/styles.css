@@ -191,3 +191,9 @@ p {
     margin-top: 15px;
   }
 }
+
+@media (max-width: 992px) {
+  .sparkle {
+    display: none;
+  }
+}
