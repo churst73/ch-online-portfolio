@@ -147,6 +147,11 @@ p {
   margin-bottom: 90px;
 }
 
+.arch {
+  border-top-right-radius: 400px;
+  border-bottom-right-radius: 400px;
+}
+
 .couple {
   border-top-left-radius: 400px;
   border-bottom-left-radius: 400px;
