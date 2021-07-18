@@ -223,6 +223,12 @@ p {
   color: var(--secondary-color);
 }
 
+.sparkle-1 {
+  position: absolute;
+  top: 1380px;
+  left: 740px;
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 35px;
@@ -269,6 +275,9 @@ p {
 
 @media (max-width: 992px) {
   .sparkle {
+    display: none;
+  }
+  .sparkle-1 {
     display: none;
   }
 }
