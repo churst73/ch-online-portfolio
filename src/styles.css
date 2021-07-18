@@ -262,6 +262,9 @@ p {
   .look {
     margin-top: 15px;
   }
+  .footer-item {
+    margin-top: 20px;
+  }
 }
 
 @media (max-width: 992px) {
