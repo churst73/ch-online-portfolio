@@ -242,12 +242,22 @@ p {
     margin-top: 50px;
     margin-bottom: 80px;
   }
+  .contact-me {
+    font-size: 45px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+  }
   .description {
     font-size: 20px;
   }
   .couple {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
+  }
+  .arch {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    margin-bottom: 20px;
   }
   .look {
     margin-top: 15px;
