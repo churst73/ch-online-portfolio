@@ -229,6 +229,10 @@ p {
   left: 740px;
 }
 
+.open-sourced {
+  color: var(--primary-color);
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 35px;
