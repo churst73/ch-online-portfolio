@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta
+      name="description"
+      content="Check out Chelsea's coding and design projects."
+    />
+    <title>Chelsea's Portfolio</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -46,7 +50,7 @@
   <body>
     <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="/">
+        <a class="navbar-brand" href="/" title="Homepage">
           <img
             src="images/ch-sublogo.png"
             alt="Chelsea Hurst Sublogo"
@@ -68,16 +72,26 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item px-4">
-              <a class="nav-link active" aria-current="page" href="/">HOME</a>
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="/"
+                title="Homepage"
+                >HOME</a
+              >
             </li>
             <li class="nav-item px-4">
-              <a class="nav-link" href="/about.html">MY STORY</a>
+              <a class="nav-link" href="/about.html" title="My story"
+                >MY STORY</a
+              >
             </li>
             <li class="nav-item px-4">
-              <a class="nav-link" href="#">MY WORK</a>
+              <a class="nav-link" href="/work.html" title="My work">MY WORK</a>
             </li>
             <li class="nav-item px-4">
-              <a class="nav-link" href="/contact.html">CONTACT</a>
+              <a class="nav-link" href="/contact.html" title="Contact Chelsea"
+                >CONTACT</a
+              >
             </li>
           </ul>
         </div>
@@ -87,7 +101,7 @@
       <h1 class="my-story">my work</h1>
       <img
         src="images/sparkle-nav-01.png"
-        alt=""
+        alt="sparkle scroll animation"
         class="sparkle"
         width="100px"
       />
@@ -95,7 +109,7 @@
     <div class="container-fluid p-4">
       <div class="row">
         <div>
-          <h2>
+          <h2 class="my-work">
             <span class="tags">&lt</span> coding projects<span class="tags"
               >&gt</span
             >
@@ -123,9 +137,7 @@
           <h3>Bassoon Landing Page</h3>
           <p class="mt-5">
             This page was built using HTML5, CSS, and Javascript. It was the
-            final project for the SheCodes Bascis workshop. Since completing it,
-            I have made several improvements, implementing things I have learned
-            from succeeding workshops.
+            final project for the SheCodes Bascis workshop.
           </p>
         </div>
         <div class="col-sm-4">
@@ -192,7 +204,7 @@
             <img
               src="images/poster3.png"
               alt="Little Red Bakery Flyer"
-              class="img-fluid rounded"
+              class="img-fluid rounded portfolio-item"
             />
             <div class="hover-overlay hover-overlay--solid">
               <div class="hover-description">
@@ -212,7 +224,7 @@
             <img
               src="images/poster2.png"
               alt="Little Shop of Horrors Poster"
-              class="img-fluid rounded"
+              class="img-fluid rounded portfolio-item"
             />
             <div class="hover-overlay hover-overlay--solid">
               <div class="hover-description">
@@ -232,7 +244,7 @@
             <img
               src="images/poster1.png"
               alt="Little Shop of Horrors"
-              class="img-fluid rounded"
+              class="img-fluid rounded portfolio-item"
             />
             <div class="hover-overlay hover-overlay--solid">
               <div class="hover-description">
@@ -261,7 +273,7 @@
             <img
               src="images/logo1.png"
               alt="The Little Red Bakery Logo"
-              class="img-fluid rounded"
+              class="img-fluid rounded portfolio-item"
             />
             <div class="hover-overlay hover-overlay--solid">
               <div class="hover-description">
@@ -281,7 +293,7 @@
             <img
               src="images/card-01.png"
               alt="Ukraine 3000"
-              class="img-fluid rounded"
+              class="img-fluid rounded portfolio-item"
             />
             <div class="hover-overlay hover-overlay--solid">
               <div class="hover-description">
@@ -301,7 +313,7 @@
             <img
               src="images/logo4.png"
               alt="Little River Trio"
-              class="img-fluid rounded"
+              class="img-fluid rounded portfolio-item"
             />
             <div class="hover-overlay hover-overlay--solid">
               <div class="hover-description">
@@ -323,7 +335,7 @@
             <img
               src="images/east1.png"
               alt="Inside Eastern Europe"
-              class="img-fluid rounded"
+              class="img-fluid rounded portfolio-item"
             />
             <div class="hover-overlay hover-overlay--solid">
               <div class="hover-description">
@@ -343,7 +355,7 @@
             <img
               src="images/logo2.png"
               alt="Journey to Care"
-              class="img-fluid rounded"
+              class="img-fluid rounded portfolio-item"
             />
             <div class="hover-overlay hover-overlay--solid">
               <div class="hover-description">
@@ -363,7 +375,7 @@
             <img
               src="images/logo8.png"
               alt="Sing Solfa"
-              class="img-fluid rounded"
+              class="img-fluid rounded portfolio-item"
             />
             <div class="hover-overlay hover-overlay--solid">
               <div class="hover-description">
@@ -389,28 +401,60 @@
           </h2>
         </div>
         <div class="col-sm-3">
-          <img src="images/icon1.png" alt="" class="img-fluid rounded" />
+          <img
+            src="images/icon1.png"
+            alt="question mark icon"
+            class="img-fluid rounded"
+          />
         </div>
         <div class="col-sm-3">
-          <img src="images/icon2.png" alt="" class="img-fluid rounded" />
+          <img
+            src="images/icon2.png"
+            alt="pause icon"
+            class="img-fluid rounded"
+          />
         </div>
         <div class="col-sm-3">
-          <img src="images/icon3.png" alt="" class="img-fluid rounded" />
+          <img
+            src="images/icon3.png"
+            alt="let's recap icon"
+            class="img-fluid rounded"
+          />
         </div>
         <div class="col-sm-3">
-          <img src="images/icon4.png" alt="" class="img-fluid rounded" />
+          <img
+            src="images/icon4.png"
+            alt="clock icon"
+            class="img-fluid rounded"
+          />
         </div>
         <div class="col-sm-3">
-          <img src="images/info1.png" alt="" class="img-fluid rounded" />
+          <img
+            src="images/info1.png"
+            alt="infographic"
+            class="img-fluid rounded"
+          />
         </div>
         <div class="col-sm-3">
-          <img src="images/info2.png" alt="" class="img-fluid rounded" />
+          <img
+            src="images/info2.png"
+            alt="organization type infographic"
+            class="img-fluid rounded"
+          />
         </div>
         <div class="col-sm-3">
-          <img src="images/icon5.png" alt="" class="img-fluid rounded" />
+          <img
+            src="images/icon5.png"
+            alt="yoga icon"
+            class="img-fluid rounded"
+          />
         </div>
         <div class="col-sm-3">
-          <img src="images/icon6.png" alt="" class="img-fluid rounded" />
+          <img
+            src="images/icon6.png"
+            alt="car icon"
+            class="img-fluid rounded"
+          />
         </div>
       </div>
     </div>
