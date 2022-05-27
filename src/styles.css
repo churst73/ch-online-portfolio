@@ -302,6 +302,19 @@ a:hover {
     border-top-right-radius: 0;
     margin-bottom: 20px;
   }
+  .instructions {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+  }
+  .little {
+    margin-top: 20px;
+  }
+  .notes {
+    margin-bottom: 20px;
+  }
+  .jump {
+    margin-top: 20px;
+  }
   .look {
     margin-top: 15px;
   }
