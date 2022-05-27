@@ -43,6 +43,19 @@ p {
   text-align: left;
 }
 
+li {
+  list-style: none;
+  margin-bottom: 5px;
+}
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: #606a3f;
+}
+
 .logo {
   margin-top: -40px;
 }
@@ -115,6 +128,7 @@ p {
 .btn-outline-warning {
   color: var(--primary-color);
   border: 2px solid var(--primary-color) !important;
+  border-radius: 30px;
   display: block;
   margin: auto;
   max-width: 150px;
