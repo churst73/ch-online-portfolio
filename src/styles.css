@@ -341,6 +341,11 @@ a:hover {
     margin-bottom: 20px;
   }
 
+  .instructions {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+  }
+
   .my-story {
     font-size: 90px;
     margin-top: 150px;
